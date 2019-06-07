@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: alpine}
+
+inputs: 
+  - name: resource-app-master
+
+run:
+  path: resource-app-master/Tasks/task-hello-world/hello_world_app.sh
+  
