@@ -6,11 +6,8 @@ image_resource:
   source: {repository: alpine}
 
 inputs: 
-  - name: resource-app-features
-
-outputs:
   - name: app-output
 
 run:
-  path: resource-app-features/hello_world_app.sh
+  path: resource-app-features/unit_test.sh
   
