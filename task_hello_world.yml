@@ -6,8 +6,8 @@ image_resource:
   source: {repository: alpine}
 
 inputs: 
-  - name: resource-app-master
+  - name: resource-app-features
 
 run:
-  path: resource-app-master/Tasks/task-hello-world/hello_world_app.sh
+  path: resource-app-features/hello_world_app.sh
   
