@@ -1,4 +1,6 @@
 #!/bin/sh
 
-echo "Hello World!!" > app-output/hello_file
+mkdir app-output
+hello = "Hello World!!"
+echo hello > app-output/hello_file
 
