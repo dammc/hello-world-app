@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cat app-output/hello_file
+cat hello_dir/hello_file
 
 echo "Unit test passed!"
