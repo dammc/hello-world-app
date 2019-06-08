@@ -6,6 +6,7 @@ image_resource:
   source: {repository: alpine}
 
 inputs: 
+  - name: resource-app-features
   - name: app-output
 
 run:
