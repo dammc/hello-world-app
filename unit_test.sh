@@ -1,5 +1,7 @@
 #!/bin/sh
 
+
+cd resource-app-features
 app_output="$(./hello_world_app.sh)"
 
 echo $app_output
