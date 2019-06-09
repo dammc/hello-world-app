@@ -1,8 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 
-app_output=./hello_world_app.sh
+app_output="$(./hello_world_app.sh)"
 
-if [$app_output == "Hello World!"]
+echo $app_output
+
+
+
+if [ "$app_output" == "Hello World!" ]
 then
     echo "unit test passed!"
 else 
