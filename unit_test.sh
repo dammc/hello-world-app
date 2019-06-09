@@ -8,4 +8,5 @@ then
 else 
     echo "unit test failed! Job paused."
     fly pause-job -j hello-world/job-hello-world
+fi
 
