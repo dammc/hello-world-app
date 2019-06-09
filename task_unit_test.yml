@@ -7,7 +7,7 @@ image_resource:
 
 inputs: 
   - name: resource-app-features
-  - name: app-output
+  
 
 run:
   path: resource-app-features/unit_test.sh
