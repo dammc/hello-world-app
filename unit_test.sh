@@ -4,7 +4,7 @@ app_output="$(./hello_world_app.sh)"
 
 echo $app_output
 
-
+ls
 
 if [ "$app_output" = "Hello World!" ]
 then
